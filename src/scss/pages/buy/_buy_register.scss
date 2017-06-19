@@ -1,0 +1,209 @@
+.buy-part{
+  .selector{
+    ul{
+      display: flex;
+      list-style-type: none;
+      padding: 0px;
+      li{
+        h1.title-info:hover{
+          color: black;
+          font-size: 1.6em;
+        }
+      }
+
+    }
+  }
+}
+.buy-part .selector ul li.triangle{
+  padding: 10px 20px 0px 20px;
+}
+.buy-part{
+  ul.formularios{
+    padding: 0px;
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    li{
+      transition: width 2s;
+    }
+    li{
+      .fixed-pay{
+        position: fixed;
+        top: 10px;
+        width: 40%;
+        transition: width 2s;
+      }
+      width: 48%;
+      .login{
+        input{
+          width: 100%;
+        }
+        h1{
+          font-size: 1.3em;
+        }
+        ul{
+          width: 100%;
+          display: flex;
+          list-style-type: none;
+          padding: 0px;
+          li{
+            width: 50%;
+            button{
+              float: right;
+            }
+          }
+        }
+      }
+      .registro{
+        .hr-abonos{
+          width: 100%;
+          height: 2px;
+          background-color: $color-grey;
+        }
+        input{
+          width: 97%;
+        }
+        h1{
+          font-size: 1.3em;
+        }
+        ul{
+          padding: 0px;
+          display: flex;
+          list-style-type: none;
+          li{
+            input{
+              width: 100%;
+            }
+            button.btn-grey{
+              margin-top: 0px;
+              float: left;
+            }
+          }
+          li.separtate{
+            padding-right: 20px;
+          }
+        }
+
+        ul.buttons-buttoms{
+          width: 100%;
+          li{
+            width: 50%;
+            button{
+              width: 90%;
+            }
+          }
+        }
+        ul.ul-vertical{
+          display: block;
+          li{
+            width: 100%;
+          }
+        }
+
+        ul.pay-recive{
+          display: flex;
+          width: 75%;
+        }
+        .btn_mas_info{
+          @include size(100%, 25px);
+          background-color: $color-grey;
+          cursor: pointer;
+          img{
+            padding: 7px 0px 0px 7px;
+          }
+        }
+      }
+    }
+    li.form-action{
+      padding-left: 30px;
+      button{
+        float: right;
+      }
+    }
+    li.separate-li{
+      width: 4%;
+      div.hr{
+        float: right;
+        width: 2px;
+        height: 500px;
+        background-color: $color-grey;
+      }
+    }
+
+  }
+}
+#login_registro{
+  display: none;
+  transition: visibility 0s, opacity 0.5s linear;
+  -webkit-transition: opacity 600ms, visibility 600ms;
+            transition: opacity 600ms, visibility 600ms;
+}
+#paypal{
+  display: none;
+  text-align: center;
+  img{
+    width: 300px;
+    cursor: pointer;
+  }
+}
+
+
+.buy-part ul.formularios li ul{
+  list-style-type: none;
+  padding: 0px;
+}
+.buy-part ul.formularios li .registro ul.pay{
+  li.radio{
+    width: 10%;
+  }
+}
+@media (max-width: 1130px) {
+  .buy-part ul.formularios li .login ul li button{
+    float: none;
+  }
+  .buy-part ul.formularios li .login ul{
+    display: block;
+  }
+}
+@media (max-width: 1365px) {
+  h1.title-info-form{
+    font-size: 1em;
+  }
+  .buy-part .selector ul li.triangle{
+    padding-top: 3px;
+  }
+}
+@media (max-width: 1030px) {
+  .buy-part ul.formularios{
+    display: block;
+  }
+  .buy-part ul.formularios li.form-action{
+    padding: 0px;
+    padding-top: 30px;
+    width: 100%;
+  }
+  .buy-part ul.formularios li{
+    width: 100%;
+  }
+  .buy-part ul.formularios li{
+    width: 100%;
+  }
+  .buy-part ul.formularios li .login ul li{
+    width: 100%;
+  }
+  .buy-part ul.formularios li.separate-li div.hr{
+    width: 100%;
+    height: 2px;
+  }
+  .buy-part ul.formularios li.separate-li{
+    width: 100%;
+    padding-top: 30px;
+  }
+  .buy-part ul.formularios li .registro ul {
+    display: block;
+  }
+  .buy-part ul.formularios li .registro ul.pay-recive{
+    width: 100%;
+  }
+}

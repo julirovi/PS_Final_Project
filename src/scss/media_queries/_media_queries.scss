@@ -1,0 +1,644 @@
+
+.img-logo-header{
+  padding-left: 120px;
+  -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+  transition: width 2s;
+}
+
+
+@media (max-width: 534px) {
+.flex-item{
+  width: 45%;
+}
+}
+
+
+@media (max-width: 530px) {
+  h5.title-artist-gallery{
+    font-size: 1.2em;
+  }
+  .box-content-search-container .box-content-search .term-list{
+    width: 81%;
+  }
+
+  /*File artist*/
+  .box-content-gallery-artist .box-content-box-artist{
+    width: 100%;
+    img{
+      width: 100%;
+    }
+  }
+.box-content-file-artist-info .box-container-file-artist-description{
+  padding-top: 130px;
+}
+.btn-green{
+  width: 100%;
+}
+.btn-face{
+  width: 100%;
+}
+.btn-face{
+  width: 100%;
+}
+iframe{
+  padding-top: 50px;
+}
+.body-informacion .body-content-info-descriptions{
+  padding-left: 0px;
+}
+.box-content-faqs{
+  padding-left: 0px;
+}
+.btn-white-home{
+  width: 100%;
+}
+.box-publi-tickets .title-publi-entradas{
+  padding: 0px;
+  width: 96%;
+}
+.box-publi-tickets .box-icon-ticket-home{
+  padding-left: 50px;
+  img{
+    padding-top: 30px;
+  }
+}
+.box-publi-tickets{
+  padding-left: 6%;
+}
+
+
+  /*File artist*/
+
+
+}
+
+
+
+
+@media (max-width: 650px) {
+
+  .body-content-info-descriptions .box-content-compras ul{
+    display: block;
+  }
+  .body-content-info-descriptions .box-content-compras ul li{
+    width: 100%;
+  }
+  h1.title-info{
+    font-size: 1em;
+  }
+  h1.title-info:hover{
+  font-size: 1em;
+  }
+
+   #reso1 a img{
+    width: 30px;
+  }
+    #reso2 a img{
+     width: 30px;
+   }
+   #reso3 a img{
+    width: 30px;
+  }
+  #reso4 a img{
+   width: 30px;
+  }
+  #reso5 a img{
+   margin-top: 5px;
+  }
+
+
+  .box-noticias .noticias-catch .noticias .box-content-noticia{
+    height: 400px;
+  }
+  .box-content-title-section .filter-principal{
+    margin-left: 0px;
+  }
+  .box-content-title-section .filter-principal .fletxa{
+    margin-top: 50px;
+  }
+  .box-content-title-section .filter-principal .filter-mobile-days{
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .loginnovisible{
+    display: none;
+  }
+  .text-logo{
+    display: none;
+  }
+  .title-day-doit ul li h1{
+    display: none;
+  }
+  .title-day-doit ul li h2{
+    display: none;
+  }
+  .caja_claim{
+  margin-top: 30px;
+  }
+  .boton_home{
+    padding-top: 60px;
+  }
+.img-home .redes-sociales{
+  display: none;
+}
+.title-day-doit ul li.text-day{
+  display: none;
+}
+.box-intermedi .box-spotify{
+  display: block;
+}
+.box-intermedi .box-spotify .title-spotify-box{
+  width: 100%;
+}
+.box-intermedi .box-spotify .repro-spotify{
+  width: 100%;
+}
+  /*Home*/
+  .btn-white{
+    width: 100%;
+  }
+
+    h1.title-home-days{
+      font-size: 2em;
+    }
+    h2.sub-title-home-days{
+      font-size: 2em;
+    }
+    .box-content-day{
+      padding-top: 148px;
+      height: auto;
+
+    }
+
+    .img-home{
+      height: 370px;
+    }
+    .box-content-day .box-title-days{
+      height: auto;
+    }
+    .logo_header_home{
+      width: 125px;
+    }
+    h2.title-info-home-artists{
+      padding-top: 10px;
+      font-size: 2em;
+    }
+    h3.sub-title-info-home-artists{
+      font-size: 1em;
+    }
+    /*Home*/
+    /*Artista*/
+    .box-content-search-container .box-content-search{
+      float: left;
+      width: 100%
+    }
+    .box-content-search-container .box-content-search .search-field{
+      font-size: 1.3em;
+      width: 80%;
+    }
+    .box-content-search-container{
+
+    }
+    /*Artistas*/
+
+    /*Footer*/
+    h6.title-link-bold-white{
+      font-size: 0.7em;
+    }
+    .term-list{
+      font-size: 1em;
+    }
+    .box-content-file-artist{
+      height: 230px;
+    }
+    /*Footer*/
+    .body-informacion .body-content-info-descriptions{
+      padding-left: 0px;
+    }
+    .box-content-faqs{
+      padding-left: 0px;
+    }
+
+    .input-type-text{
+      width: 96%;
+    }
+    .input-type-textarea{
+      width: 96%;
+    }
+    .box-content-faqs{
+      width: 100%;
+    }
+    .btn-grey{
+      width: 100%;
+    }
+    .body-content-select-tickets ul.entrada_a_comprar{
+      display: block;
+    }
+    .body-content-select-tickets ul li.acciones{
+      width: 100%;
+    }
+    .body-content-select-tickets ul li ul{
+      text-align: left;
+    }
+
+  .box-content-tickets{
+    padding-left: 0px;
+  }
+  .body-content-select-tickets ul li{
+    width: 100%;
+  }
+.entradas-dia ul{
+  display: block;
+
+}
+.entradas-dia ul li{
+  width: 100%;
+}
+.entradas-dia ul li.descrip{
+  width: 100%;
+  padding-left: 0px;
+}
+.entradas-dia ul li.input{
+  width: 20%;
+  padding-top: 20px;
+  margin-bottom: 10px;
+}
+.entradas-dia ul li a button{
+  margin-top: 0px;
+}
+
+}
+
+@media (max-width:1370px){
+
+
+  .body-informacion .body-content-info-descriptions{
+    padding-left: 0px;
+  }
+  /*Info*/
+  .body-informacion .box-content-selector-info{
+    width: 100%;
+    float: none;
+    .box-content-selector-item{
+      width: 100%;
+      .box-content-item-flexa{
+
+
+      }
+
+
+    }
+  }
+  .body-informacion .box-content-selector-info .box-content-selector-item .box-hr{
+    padding-top: 45px;
+  }
+  .body-informacion .box-content-selector-info .box-content-selector-item .box-content-item-flexa{
+    padding: 15px 0px 0px 0px;
+  }
+  .body-informacion .body-content-info-descriptions{
+    float: none;
+    width: 100%;
+  }
+  .body-informacion .body-content-info-descriptions .box-content-selector-descriptions .box-content-item-info-descriptions{
+    float: left;
+  }
+  .body-informacion .body-content-info-descriptions .box-content-selector-descriptions .box-content-item-flexa-descriptions{
+    padding: 15px 0px 0px 0px;
+    float: right;
+  }
+  .body-informacion .body-content-info-descriptions .box-content-selector-descriptions .box-content-item-info-descriptions{
+    width: 100%;
+  }
+  .body-informacion .body-content-info-descriptions .box-content-selector-descriptions .box-hr-descriptions{
+    display: none;
+  }
+  .body-informacion .body-content-info-descriptions .box-content-selector-descriptions .box-content-item-flexa-descriptions{
+    display: none;
+  }
+  .box-content-faqs{
+    padding-left: 0px;
+    float: left;
+  }
+  .contact-box{
+    float: left;
+  }
+  /*Info*/
+}
+
+
+
+@media (max-width:1260px){
+  .box-spotify .title-spotify-box{
+    padding: 0px;
+    width: 95%;
+  }
+  .box-spotify .repro-spotify{
+    width: 95%;
+    float: left;
+    padding-top: 30px;
+  }
+}
+
+
+@media (max-width: 803px) {
+  .box-noticias .noticias-catch{
+    display: block;
+  }
+  .box-noticias .noticias-catch .noticias{
+    width: 100%;
+  }
+  .box-noticias .noticias-catch .noticias .box-content-noticia{
+    height: 602px;
+  }
+  .box-partner .box-part-colb{
+    display: block;
+  }
+  .box-partner .box-part-colb .parter{
+    width: 50%;
+  }
+  .box-partner .box-part-colb .colabo{
+    width: 100%;
+  }
+  .box-app .content-general{
+    display: block;
+  }
+  .box-app .content-general .app-foto{
+    width: 100%;
+  }
+  .box-app .content-general .app-description{
+    width: 100%;
+  }
+  .box-app .content-general .app-foto img{
+    width: 100%;
+  }
+  .box-intermedi .noticias-catch{
+    display: block;
+  }
+  .box-intermedi .noticias-catch .noticias{
+    width: 100%;
+  }
+  .box-intermedi .noticias-catch .noticias .box-content-noticia{
+    height: auto;
+  }
+  .box-intermedi .noticias-catch .noticias .box-content-noticia .content{
+    position: static;
+  }
+  .box-intermedi .noticias-catch .noticias .box-content-noticia .content h5{
+    position: static;
+    margin-top: 20px;
+  }
+}
+
+
+@media (max-width: 1155px) {
+  /*Header*/
+  .header-ps .header-bar .boton_menu{
+    display: block;
+  }
+  .menu-desktop{
+    display: none;
+  }
+  .part-login{
+    padding: 0px;
+  }
+}
+
+@media (max-width: 1030px) {
+
+  .box-noticia-file ul{
+    display: block;
+  }
+  .box-noticia-file ul li.noticia{
+    width: 100%;
+  }
+  .box-noticia-file ul li.panel{
+    width: 100%;
+  }
+  .box-noticia-file ul li.panel .box-interesarte{
+    margin-left: 0px;
+  }
+  .box-content-title-section .filter-principal{
+    display: flex;
+  }
+  .box-noticia-file ul.date-i-redes{
+    display: flex;
+  }
+.box-noticia-file ul li.panel .box-interesarte .box-info ul{
+  display: flex;
+}
+.box-noticia-file ul li.panel .box-interesarte .box-info ul li{
+  width: 50%;
+  margin-right: 10px;
+}
+.box-noticia-file ul li.panel .box-interesarte{
+  height: auto;
+}
+.box-noticia-file ul li ul.date-i-redes li.redes .redes-float ul{
+  display: flex;
+}
+
+
+  /*Home*/
+  .img-logo-header-home{
+    width: 25px;
+  }
+
+  .box-content-day .box-title-days{
+    width: 85%;
+  }
+
+  /*Home*/
+
+
+
+
+  .img-logo-header{
+    padding-left: 25px;
+  }
+  .header-ps .header-menu{
+    height: 15px;
+  }
+  .header-ps .img-logo-header{
+    width: 130px;
+  }
+  .header-ps .header-bar{
+    height: 120px;
+    padding-top: 0px;
+  }
+  .header-ps .header-bar-home{
+    height: 0px;
+  }
+  /*Header*/
+  /*Body*/
+  .box-content-body{
+    padding: 30px 25px 30px 25px;
+  }
+
+  .part-login{
+    padding: 0px 0px 0px 0px;
+  }
+
+
+  .box-content-day-artist{
+    display: none;
+  }
+  ul.box-artist-view li.list-artist{
+    width: 100%;
+  }
+  ul.box-artist-view li.day-artist{
+    width: 0%;
+  }
+  .box-content-gallery-artist{
+    padding-left: 0px;
+    width: 100%;
+    .box-content-box-artist{
+      padding-right: 20px;
+    }
+  }
+
+
+
+
+
+  /*Body*/
+  /*Footer*/
+
+  .footer-ps .box-content-links-mobile{
+    display: block;
+    padding-left: 25px;
+  }
+  .footer-ps .box-content-logo-footer{
+    padding-right: 25px;
+  }
+  /*Footer*/
+
+}
+
+
+@media (max-width: 1170px) {
+  /*File artist*/
+  .box-content-file-artist-2{
+
+    float: left;
+    padding: 0px;
+    width: 100%;
+    .box-content-file-artist-2{
+      width: 100%;
+      .btn-green{
+        width: 100%;
+      }
+    }
+    iframe{
+      width: 100%;
+    }
+  }
+  .box-content-file-artist-2{
+    padding-top: 50px;
+  }
+  .box-content-file-artist-info{
+    width: 100%;
+  }
+  .box-content-file-artist-info .box-title-file-artist-info{
+    width: 100%;
+  }
+  .box-content-file-artist .box-content-day-file-artist{
+    display: none;
+  }
+  .box-content-day-file-artist-mobile{
+    display: block;
+  }
+
+  .remove-btn-comprar{
+    display: none;
+  }
+
+  /*File artist*/
+}
+@media (max-width: 1030px) {
+  .buy-part ul.formularios li .fixed-pay{
+    position: inherit;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1030px) {
+  p.p-title-home-date{
+    padding-left: 27.5%;
+  }
+}
+@media (max-width: 477px) {
+  p.p-title-home-date{
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 650px) {
+  .box-noticias .noticias-catch .noticias .box-content-noticia{
+    height: 490px;
+  }
+  .box-noticia-file ul li.panel .box-interesarte .box-info ul{
+    display: block;
+  }
+  .box-noticia-file ul li.panel .box-interesarte .box-info ul li{
+    width: 100%;
+
+  }
+  .box-noticia-file ul li.panel .box-interesarte{
+    height: auto;
+  }
+}
+
+@media (max-width: 1200px){
+  .body-informacion #menu_elements{
+    box-shadow: 13px 4px 27px -20px;
+    display: none;
+    -webkit-transition: width 0.5s; /* Safari */
+    transition: width 0.5s;
+  }
+  .body-informacion #contenido{
+    width: 100%;
+    -webkit-transition: width 0.5s; /* Safari */
+    transition: width 0.5s;
+  }
+  #abrirmenu1{
+    display: block;
+  }
+  
+}
+@media (max-width: 721px){
+  ul.prensa-logins{
+    display: block;
+  }
+  ul.prensa-logins li{
+    width: 100%;
+  }
+}
+
+@media (max-width: 690px){
+  span.title-menu-pay1{
+    width: 207px;
+    font-size: 1em;
+    padding-right: 0px;
+  }
+}
+
+@media (max-width: 850px){
+  .contact-box{
+    width: 100%;
+  }
+  .noticias-catch{
+    display: block;
+  }
+  .noticias-catch .noticiasext{
+    width: 100%;
+  }
+}
+
+@media (max-width: 950px){
+  .box-contact ul{
+    display: block;
+  }
+  .box-contact ul li{
+    width: 100%;
+  }
+}

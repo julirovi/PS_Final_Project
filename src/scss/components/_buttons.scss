@@ -1,0 +1,63 @@
+.boton_menu{
+  @include size(67px, 40px);
+  background-color: $color-black;
+  text-align: center;
+  float: right;
+  cursor: pointer;
+  margin-left: 12px;
+}
+.btn-white{
+  @include size(471px, 122px);
+  background-color: $color-secundary;
+  text-align: center;
+  border: 0px;
+  outline: none;
+  @include font-style(700, 2em, $color-black, none);
+}
+.btn-green{
+  @include size(460px, 54px);
+  background-color: $color-primavera-sound;
+  text-align: center;
+  border: 0px;
+  outline: none;
+  @include font-style(700, 1em, $color-black, none);
+}
+.btn-green:hover{
+  background-color: #00d84b;
+  color: white;
+}
+.btn-white-home{
+  @include size(460px, 54px);
+  background-color: $color-secundary;
+  text-align: center;
+  border: 0px;
+  outline: none;
+  @include font-style(700, 1em, $color-black, none);
+}
+.btn-grey{
+  margin-top: 30px;
+  @include size(460px, 54px);
+  background-color: $color-grey;
+  text-align: center;
+  border: 0px;
+  outline: none;
+  @include font-style(700, 1em, $color-black, none);
+}
+.btn-grey:hover{
+  background-color: #868686;
+  color: white;
+}
+.btn-face{
+  @include size(100%, 54px);
+  background-color: #4441a1;
+  text-align: center;
+  border: 0px;
+  outline: none;
+  @include font-style(700, 1em, $color-secundary, none);
+  display: flex;
+  img{
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}

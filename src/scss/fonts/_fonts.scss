@@ -1,0 +1,239 @@
+$fuente: 'Assistant', sans-serif;
+
+a.title-link-light{
+  @include font-style(300, 1.3em, $color-light-grey, none);
+  text-decoration: none;
+}
+a.title-link-bold{
+  @include font-style(500, 1.2em, $color-black, none);
+  text-decoration: none;
+  padding-top: 2px;
+
+}
+a.title-link-bold:hover{
+  border-bottom: 3px solid $color-primavera-sound;
+}
+
+
+
+h1.title-section{
+  @include font-style(700, 2em, $color-black, none);
+  @include clear-full();
+}
+h1.title-home-days{
+  @include font-style(700, 4em, $color-secundary, none);
+  @include clear-full();
+}
+h1.title-info-form{
+  @include font-style(300, 1.6em, $color-black, none);
+  @include clear-full();
+}
+h1.title-info{
+  @include font-style(300, 1.6em, $color-black, none);
+  @include clear-full();
+}
+h1.selected{
+  font-weight: 700;
+}
+h1.title-info:hover{
+  @include font-style(300, 1.6em, $color-primavera-sound, none);
+  @include clear-full();
+}
+h1.title-price-ticket{
+  @include font-style(700, 4em, $color-black, none);
+  @include clear-full();
+}
+h1.title-ticket-superior{
+  @include font-style(700, 2em, $color-black, none);
+  @include clear-full();
+}
+
+
+
+
+
+h1.title-artists-days{
+  @include font-style(700, 4em, $color-black, none);
+  @include clear-full();
+}
+h1.title-day-file-artist{
+  @include font-style(700, 4em, $color-black, none);
+  @include clear-full();
+}
+h1.title-home-entradas-h1{
+  @include font-style(700, 2em, $color-black, none);
+  @include clear-full();
+}
+
+
+h2.sub-title-home-days{
+  @include font-style(700, 2em, $color-secundary, none);
+  @include clear-full();
+}
+h2.title-info-home-artists{
+  @include font-style(700, 2.5em, $color-black, none);
+}
+h2.mobile-h2{
+  @include font-style(700, 2em, $color-black, none);
+  line-height: 40px;
+    @include clear-full();
+    padding: 10px 0px 10px 0px;
+}
+h2.title-home-h2{
+  @include font-style(700, 3em, $color-black, none);
+  @include clear-full();
+}
+h2.title-home-entradas-h2{
+  @include font-style(500, 1.5em, $color-black, none);
+  @include clear-full();
+}
+
+
+
+h3.sub-title-info-home-artists{
+  @include font-style(400, 2em, $color-black, none);
+}
+h3.title-month-file-artist{
+  @include font-style(700, 2em, $color-black, none);
+  @include clear-full();
+  line-height: 14px;
+}
+h3.title-home-h3{
+  @include font-style(500, 2.5em, $color-black, none);
+  @include clear-full();
+  padding-bottom: 10px;
+}
+h3.title-spotify{
+  @include font-style(700, 1.5em, $color-black, none);
+  @include clear-full();
+}
+h3.text-noticia{
+  font-size: 1.3em;
+}
+
+
+
+h4.title-name-day-file-artist{
+  @include font-style(700, 2em, $color-black, none);
+  @include clear-full();
+}
+h4.title-black-desktop{
+  @include font-style(700, 1.5em, $color-black, none);
+  @include clear-full();
+}
+h4.title-home-h4{
+  @include font-style(700, 1em, $color-black, none);
+  @include clear-full();
+  padding-top: 30px;
+}
+
+
+h5.title-artists-days{
+  @include font-style(700, 1.5em, $color-black, none);
+  line-height: 25px;
+  @include clear-full();
+}
+h5.title-artist-gallery{
+  @include font-style(300, 1.5em, $color-black, none);
+  @include clear-full();
+}
+h5.title-description-h5{
+  @include font-style(700, 1.5em, $color-black, none);
+  @include clear-full();
+}
+h5.title-description-h5-s{
+  @include font-style(700, 1.3em, $color-black, none);
+  @include clear-full();
+}
+h5.date{
+  @include font-style(700, 1.2em, #9B9B9B, none);
+  @include clear-full();
+}
+
+
+h6.title-artists-days{
+    @include font-style(700, 1.5em, $color-black, none);
+    @include clear-full();
+}
+h6.title-description-ticket{
+  @include font-style(700, 1.5em, $color-black, none);
+  @include clear-full();
+}
+h6.title-more-information-tickets{
+  @include font-style(300, 1.5em, $color-black, none);
+  @include clear-full();
+}
+
+
+
+
+
+p.btn_menu{
+    @include font-style(700, 1em, $color-secundary, none);
+    padding-top: 10px;
+    margin: 0px;
+}
+p.title-bold-white{
+  @include font-style(700, 1em, $color-secundary, none);
+}
+p.title-copyright{
+  @include font-style(300, 1em, $color-secundary, none);
+  @include clear-full();
+}
+
+p.title-name-file-artist{
+  @include font-style(700, 1.5em, $color-black, none);
+  @include clear-full();
+  padding-top: 18px;
+}
+p.description-p{
+  @include font-style(400, 1em, $color-black, none);
+  @include clear-full();
+  line-height: 27px;
+}
+p.title-volver{
+  @include font-style(700, 1em, $color-black, none);
+  @include clear-full();
+  padding-bottom: 30px;
+}
+p.title-home-entradas-p{
+  @include font-style(700, 1em, $color-black, none);
+  @include clear-full();
+}
+p.title-header-sup{
+  @include font-style(500, 1em, #9B9B9B, none);
+}
+p.p-title-home-date{
+  @include font-style(700, 1.5em, $color-black, none);
+  @include clear-full();
+  padding-left: 195px;
+}
+
+
+span.name-file-artist-span{
+  font-weight: 400;
+}
+span.span-rallado{
+  font-stretch: expanded;
+}
+span.title-section{
+  @include font-style(700, 1.3em, $color-black, none);
+  @include clear-full();
+}
+span.title-section-grey{
+  @include font-style(700, 1.3em, #9B9B9B, none);
+  @include clear-full();
+}
+span.title-menu-pay{
+  @include font-style(700, 1em, #9B9B9B, none);
+}
+span.title-menu-pay1{
+  @include font-style(700, 1.5em, #9B9B9B, none);
+  float: right;
+    padding-right: 10px;
+    width: 447px;
+}
+h6.title-link-bold-white{
+  @include font-style(700, 1em, $color-secundary, none);
+    @include clear-full();
+}

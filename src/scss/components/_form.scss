@@ -1,0 +1,173 @@
+
+.input-type-text{
+    outline: none;
+    @include size(400px, 40px);
+    border: 1px solid $color-hr;
+    @include font-style(500, 1em, $color-black, none);
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 15px;
+
+}
+.input-type-text::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color:$color-black;
+}
+.input-type-text::-moz-placeholder { /* Firefox 19+ */
+  color:$color-black;
+}
+.input-type-text:-ms-input-placeholder { /* IE 10+ */
+  color:$color-black;
+}
+.input-type-text:-moz-placeholder { /* Firefox 18- */
+  color:$color-black;
+}
+.input-type-textarea{
+    outline: none;
+  @include size(100%, 140px);
+  border: 3px solid $color-hr;
+  @include font-style(700, 1em, $color-black, none);
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 30px;
+}
+.input-type-textarea::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color:$color-black;
+}
+.input-type-textarea::-moz-placeholder { /* Firefox 19+ */
+  color:$color-black;
+}
+.input-type-textarea:-ms-input-placeholder { /* IE 10+ */
+  color:$color-black;
+}
+.input-type-textarea:-moz-placeholder { /* Firefox 18- */
+  color:$color-black;
+}
+
+
+
+
+
+
+
+
+/* basic stylings ------------------------------------------ */
+
+/* form starting stylings ------------------------------- */
+
+
+.group {
+  position: relative;
+  margin-bottom: 30px;
+
+
+  input {
+    @include font-style(500, 1em, $color-black, none);
+    padding: 10px 0px 10px 2px;
+    border: 1px solid #979797;
+    display: block;
+    width: 100%;
+
+    border: none;
+  }
+
+  input:focus {
+    outline: none;
+  }
+
+
+       input:required {
+         border:1px solid #979797;
+
+      }
+
+       input:valid{
+          border:2px solid green;
+
+      }
+
+       input:focus:invalid{
+          border:2px solid red;
+
+      }
+  /* LABEL ======================================= */
+
+  label {
+    color: black;
+    font-size: 18px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+    @include font-style(500, 1em, $color-black, none);
+  }
+
+
+  /* active state */
+
+  input:focus ~ label,
+  input:valid ~ label {
+    top: -20px;
+    font-size: 14px;
+    color: black;
+  }
+
+
+  /* BOTTOM BARS ================================= */
+
+  .bar {
+    position: relative;
+    display: block;
+    width: 300px;
+  }
+
+  .bar:before,
+  .bar:after {
+    content: '';
+    height: 2px;
+    width: 0;
+    bottom: 1px;
+    position: absolute;
+    background: #5264AE;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+  }
+
+  .bar:before {
+    left: 50%;
+  }
+
+  .bar:after {
+    right: 50%;
+  }
+
+
+  /* active state */
+
+
+  /* HIGHLIGHTER ================================== */
+
+  .highlight {
+    position: absolute;
+    height: 60%;
+    width: 100px;
+    top: 25%;
+    left: 0;
+    pointer-events: none;
+    opacity: 0.5;
+  }
+
+
+  /* active state */
+
+  input:focus ~ .highlight {
+    -webkit-animation: inputHighlighter 0.3s ease;
+    -moz-animation: inputHighlighter 0.3s ease;
+    animation: inputHighlighter 0.3s ease;
+  }
+
+}

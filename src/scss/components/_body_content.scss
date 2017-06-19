@@ -1,0 +1,99 @@
+.box-content-title-section{
+  /*padding-top: 30px;*/
+  .filter-principal{
+    margin-left: 18%;
+    display: none;
+    margin-top: 30px;
+    .filter-mobile-days{
+      width: 80%;
+      @include size(97%, 78px);
+      margin: 50px 0px 10px 0px;
+      .days-box{
+        width: 97%;
+        overflow-y: scroll;
+        ul{
+          margin: 0px;
+          display: flex;
+          list-style-type: none;
+          padding: 0px;
+          li{
+            .day-a-select{
+              h1.title-artists-days{
+                font-size: 2em;
+              }
+              h5.title-artists-days{
+                font-size: 1.3em;
+              }
+              h6.title-artists-days{
+                font-size: 1em;
+              }
+              margin-right: 10px;
+            }
+            border-right: 2px solid #d7d7d7;
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+    .fletxa{
+      width: 20%;
+      margin-top: 80px;
+    }
+  }
+
+}
+.search-separation{
+  padding-top: 30px;
+}
+
+.header-separacio{
+  margin-bottom: 40px;
+}
+.box-content-body{
+  padding: 0px 120px 30px 120px;
+  .box{
+    height: 50px;
+    .logins{
+      float: right;
+      ul{
+        list-style-type: none;
+        display: flex;
+        margin: 0px;
+        padding: 0px;
+        li{
+          padding-right: 5px;
+          ul{
+            li{
+              width: 16px;
+              .number{
+                text-align: center;
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                background-color: $color-primavera-sound;
+                p{
+                  @include font-style(500, 1em, $color-secundary, none);
+                }
+                a{
+                  color: $color-secundary;
+                }
+              }
+            }
+            img{
+              cursor: pointer;
+              padding-top: 13px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.hr-section{
+  height: 2px;
+  background-color: $color-hr;
+  border: 0px;
+}
+.selected-hr{
+  background-color: $color-primavera-sound;
+}

@@ -1,0 +1,76 @@
+.header-ps{
+  .header-menu{
+    @include size(100%, 0px);//Antes era 60px !!
+    background-color: $color-secundary;
+  }
+  .header-bar{
+    padding-top: 15px;
+    @include size(100%, 140px);
+    margin-bottom: 60px;
+   .menu-desktop{
+     padding-top: 2px;
+     margin-left: 14%;
+     @include list-to-menu();
+
+    }
+    .boton_menu{
+      display: none;
+      margin-right: 25px;
+    }
+  }
+  .header-bar-home{
+    background-image: none;
+    height: 55px;
+  }
+  .box-title-remark{
+    border: 3px solid $color-primavera-sound;
+    padding: 2px 12px 2px 12px;
+    .title-remark{
+      color: $color-primavera-sound;
+    }
+  }
+  .img-logo-header{
+    padding-top: 16px;
+    width: 160px;
+  }
+}
+
+
+.header-ps .header-bar .menu-desktop ul{
+  margin-top: 0px
+}
+.header-ps .header-bar .menu-desktop li{
+  img{
+    margin-top: 6px;
+  }
+}
+.header-ps .header-bar .menu-desktop li.number-items{
+  margin-top: 9px;
+  padding-right: 0px;
+  .number{
+    text-align: center;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: #33FF7A;
+        p{
+          padding: 2px 0px 0px 1px;
+          margin: 0px;
+          a{
+            color: white;
+          }
+        }
+  }
+}
+.margin-top-menu{
+  margin-top: 4px;
+}
+
+.login-margin-right{
+  padding-right: 3px;
+}
+
+.selected-menu-desktop{
+      border-bottom: 3px solid $color-primavera-sound;
+
+}

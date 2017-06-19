@@ -1,0 +1,112 @@
+#BarFIleArtist{
+  margin: 0px;
+}
+.box-content-compartir{
+  float: right;
+  .img-compart{
+    padding-top: 57px;
+    ul{
+      margin: 0px;
+      list-style-type: none;
+      display: flex;
+      padding: 0px;
+      li{
+      margin-right: 5px;
+      }
+    }
+  }
+}
+.box-content-file-artist{
+  -webkit-background-size: cover;
+ -moz-background-size: cover;
+ background-size: cover;
+  height: 486px;
+  .box-content-day-file-artist{
+    @include size(172px, 172px);
+    margin-right: 0px;
+    margin-top: 314px;
+    background-color: #fff;
+    opacity: 0.7;
+    float: right;
+    position: relative;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+
+  }
+}
+.box-content-file-artist-info{
+  float: left;
+  @include size(47%, auto);
+  padding-top: 20px;
+  .box-title-file-artist-info{
+    @include size(100%, 60px);
+  }
+  .box-container-file-artist-description{
+    padding-top: 80px;
+  }
+}
+.box-content-file-artist-2{
+  float: right;
+  padding: 52px 0px 0px 25px;
+    @include size(460px, auto);
+}
+.box-video-artist{
+      margin-top: 815px;
+      iframe{
+        margin-top: 50px;
+      }
+
+}
+.box-file-artist-relacionados{
+  .box-content-gallery-artist{
+    @include size(100%, 100%);
+    @include clear-full();
+    padding-top: 20px;
+  }
+  .box-content-title-section{
+    padding-top: 100px;
+
+
+  }
+  .box-content-gallery-artist{
+    ul{
+      list-style-type: none;
+      padding: 0px;
+      li{
+        ul.cor{
+          margin-top: 10px;
+          list-style-type: none;
+          display: flex;
+          padding: 0px;
+          li{
+            img{
+              cursor: pointer;
+            }
+            h5{
+              padding: 0px;
+              padding-left: 5px;
+              font-size: 0.9em;
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+}
+
+
+
+.box-content-day-file-artist-mobile{
+  display: none;
+  @include size(100%, 170px);
+  border: 2px solid $color-hr;
+  margin-top: 30px;
+  text-align: center;
+  .mobile-btn{
+    width: 90%;
+  }
+
+}

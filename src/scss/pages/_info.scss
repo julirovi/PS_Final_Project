@@ -1,0 +1,170 @@
+.body-informacion{
+  ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+    li{
+      .box-content-selector-info{
+
+        padding-top: 30px;
+        @include size(96%, 96px);
+        .box-content-selector-item{
+          padding-bottom: 30px;
+          @include size(96%, 50px);
+          .box-content-item-info{
+            float: left;
+          }
+          .box-content-item-flexa{
+
+            padding: 10px 0px 0px 0px;
+            padding-left: 96%;
+          }
+          .box-hr{
+            padding-top: 5%;
+          }
+
+        }
+      }
+      .body-content-info-descriptions{
+        @include size(100%, auto);
+        float: left;
+        padding-top: 30px;
+
+        img.historia{
+          width: 100%;
+        }
+        .box-content-selector-descriptions{
+          padding-bottom: 20px;
+          @include size(100%, auto);
+          .box-content-item-info-descriptions{
+            width: 740px;
+            height: auto;
+            float: left;
+          }
+          .box-content-item-flexa-descriptions{
+            float: right;
+            padding: 10px 0px 0px 0px;
+          }
+          .box-hr-descriptions{
+            padding-top: 65px;
+          }
+
+        }
+        .box-content-como-llegar-transport{
+          float: left;
+          padding-bottom: 30px;
+          @include size(340px, auto);
+        }
+      }
+    }
+    li.menu{
+      display: block;
+      width: 30%;
+      -webkit-transition: width 2s; /* Safari */
+    transition: width 2s;
+    }
+    li.contenido{
+      width: 70%;
+      -webkit-transition: width 2s; /* Safari */
+    transition: width 2s;
+    }
+  }
+
+
+
+/*accordion*/
+  .accordion {
+    font-family: helvetica neue;
+    overflow: hidden;
+    color: rgba(0, 0, 0, 0.2);
+    padding: 10px;
+  }
+  .accordion div {
+    a{
+      color: black;
+    }
+
+    -webkit-transition-property: height;
+    transition-property: height;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    float: left;
+    overflow: hidden;
+    color: rgba(0,0,0,0.5);
+    cursor: pointer;
+    background: white;
+    margin: 3px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #cdcdcd;
+  }
+  .accordion div p {
+    display: none;
+  }
+  .accordion div img {
+    display: none;
+  }
+  .accordion div button {
+    display: none;
+  }
+  .accordion div h5 {
+    padding: 5px;
+  }
+  .accordion div h2 a {
+    padding: 8px 10px;
+    display: block;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+  }
+  .accordion div:target {
+    background: white;
+    padding: 10px;
+  }
+  .accordion div:target h2 {
+    width: 100%;
+  }
+  .accordion div:target h2 a {
+    color: rgba(0, 0, 0, 0.8);
+    padding: 0;
+  }
+  .accordion div:target p {
+    display: block;
+  }
+  .accordion div:target img {
+    display: block;
+  }
+  .accordion div:target button {
+    display: block;
+  }
+  .accordion div:target:hover {
+    background: white;
+  }
+  .accordion div:target:after {
+    left: -9999px;
+  }
+  .accordion div:after {
+    background: rgba(0, 0, 0, 0.5);
+    position: relative;
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+    top: -60px;
+    left: 810px;
+  }
+  .accordion div:hover {
+    background: #f9f9f9;
+  }
+  .accordion :target {
+    height: auto;
+    width: 97%;
+  }
+
+
+
+
+
+}

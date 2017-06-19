@@ -1,0 +1,30 @@
+.text-align-center{
+  text-align: center;
+}
+
+
+@mixin size($width, $height) {
+      width: $width;
+      height: $height;
+}
+@mixin list-to-menu() {
+  ul{
+    list-style:none;
+    display: flex;
+  }
+  li{
+    padding-right: 30px;
+  }
+}
+@mixin font-style($font-weight, $font-size, $color, $background-color){
+  font-weight: $font-weight;
+  font-family: $fuente;
+  font-size: $font-size;
+  color: $color;
+  background-color: $background-color;
+}
+@mixin clear-full() {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}

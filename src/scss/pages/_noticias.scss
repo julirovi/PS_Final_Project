@@ -1,0 +1,42 @@
+.box-noticias{
+  .noticias-catch{
+    padding-top: 30px;
+    width: 100%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+
+    .noticias{
+      margin-bottom: 30px;
+      width: 30%;
+      .box-content-noticia{
+        @include size(100%, 405px);
+        background-color: #FAFAFA;
+        .content{
+          position: relative;
+          height: 85%;
+          padding: 30px 20px 30px 20px;
+          img{
+            width: 100%;
+          }
+          h3{
+            padding-top: 10px;
+          }
+          h5{
+            position: absolute;
+            bottom: 25px;
+          }
+        }
+
+      }
+    }
+
+  
+
+  }
+
+}

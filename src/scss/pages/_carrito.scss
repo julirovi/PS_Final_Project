@@ -1,0 +1,79 @@
+.body-content-select-tickets{
+  ul{
+    padding: 0px;
+    padding-top: 20px;
+    list-style-type: none;
+    display: flex;
+    li{
+      width: 50%;
+      ul{
+        text-align: center;
+        padding-top: 0px;
+        li{
+          margin-bottom: 10px;
+          width: 100%;
+          ul{
+            padding-top: 0px;
+            display: block;
+            li{
+
+            }
+          }
+        }
+      }
+    }
+    li.datos{
+
+    }
+    li.acciones{
+      text-align: right;
+    }
+  }
+}
+
+
+
+
+form .number-wrap {
+position: relative;
+width: 100%;
+}
+form .number-wrap:hover .arrow {
+opacity: 1;
+}
+form .number-wrap input {
+width: 40%;
+color: black;
+font-weight: bold;
+font-size: 15px;
+
+}
+
+form .number-wrap .arrow {
+position: absolute;
+opacity: 0;
+transition: all 200ms linear;
+}
+form .number-wrap .arrow.up {
+left: 10px;
+top: 3px;
+}
+form .number-wrap .arrow.down {
+top: 3px;
+right: 10px;
+}
+form .number-wrap input.number {
+padding: 0.6rem;
+border-radius: 0px;
+border: solid 2px #ddd;
+margin: 0;
+text-align: center;
+-webkit-appearance: none;
+-moz-appearance: textfield;
+transition: all 200ms linear;
+padding-left: 22px;
+}
+form .number-wrap input.number:focus {
+outline: none;
+border-color: #999;
+}

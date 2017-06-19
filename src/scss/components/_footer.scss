@@ -1,0 +1,30 @@
+.footer-ps{
+  float: right;
+  margin-top: 100px;
+  @include size(100%, auto);
+  .box-content-links{
+    text-align: center;
+    .img-logo-footer{
+      padding-top: 30px;
+    }
+    ul{
+      padding-left: 0px;
+      display: flex;
+      list-style:none;
+      li{
+        padding-right: 10px;
+      }
+    }
+    @include size(100%, 190px);
+    background-color: $color-black;
+  }
+  .box-content-footer-copyright{
+    text-align: center;
+    @include size(100%, 23px);
+
+  }
+  .box-content-links-footer{
+    display: inline-block;
+  }
+
+}

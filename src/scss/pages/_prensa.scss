@@ -1,0 +1,31 @@
+ul.prensa-logins{
+  list-style-type: none;
+  display: flex;
+  padding: 0px;
+  width: 100%;
+  margin-top: 70px;
+  li{
+    margin-right: 4%;
+    width: 50%;
+    ul.group-separate{
+      display: flex;
+      padding: 0px;
+      list-style-type: none;
+      width: 100%;
+
+      li{
+        input{
+          width: 90%;
+        }
+        width: 50%;
+        button{
+          float: right;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+.body-informacion ul li.media{
+  width: 50%;
+}

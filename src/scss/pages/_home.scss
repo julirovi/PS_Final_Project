@@ -1,0 +1,284 @@
+.img-logo-header-home{
+  width: 15%;
+}
+.header-bar-home{
+  padding-bottom: 20px;
+}
+.img-home{
+  height: 660px;
+  -webkit-background-size: cover;
+ -moz-background-size: cover;
+ background-size: cover;
+ .redes-sociales{
+   position: fixed;
+   top: 200px;
+   ul{
+     list-style: none;
+     padding: 0px;
+     li{
+       img{
+         cursor: pointer;
+       }
+     }
+   }
+ }
+
+}
+.title-day-doit{
+  width: 9.5%;
+  padding-left: 10%;
+  position: absolute;
+   ul{
+     padding: 0px;
+     display: flex;
+     list-style-type: none;
+     li.img-logo-center{
+       margin-right: 30px;
+     }
+     li.text-day{
+       margin-top: 83px;
+     }
+     li{
+
+     }
+   }
+  h1,h2{
+    color: $color-black;
+    font-size: 12px;
+  }
+}
+.text-logo{
+  margin-top: 145px;
+  position: absolute;
+  padding-left: 10%;
+  h1{
+    margin: 0px;
+      @include font-style(700, 2.3em, $color-black, none);
+  }
+  h2{
+    margin: 0px;
+      @include font-style(700, 2em, $color-black, none);
+  }
+}
+.img-pre-home{
+    margin-top: 20px;
+  height: 38px;
+  -webkit-background-size: cover;
+ -moz-background-size: cover;
+ background-size: cover;
+}
+.logo_header_home{
+  width: 120px;
+}
+.box-content-day{
+  padding: 350px 25px 0px 25px;
+  text-align:center;
+  height: auto;
+    .box-title-days{
+      text-align: center;
+      margin:-60px auto;
+      @include size(1000px, 166px);
+    }
+}
+
+.home-info-artists{
+  @include size(100%, auto);
+  background-color: white;
+}
+.margin-remove-up{
+  margin-top: 0px;
+  padding-top: 45px;
+}
+.width-change{
+  width: 250px;
+}
+
+.box-content-ticket-info{
+    @include size(100%, auto);
+    background-color: $color-secundary;
+    .box-content-box-ticket{
+      float: left;
+    }
+    .box-icon-ticket{
+
+    }
+}
+
+
+
+.box-publi-tickets{
+  padding-top: 50px;
+  padding-left: 23%;
+  .title-publi-entradas{
+    float: left;
+    padding: 30px 0px 50px 50px;
+    @include size(400px, auto);
+  }
+  .box-icon-ticket-home{
+    padding-bottom: 50px;
+  }
+}
+.box-cartel{
+
+  text-align: center;
+  .cartel-ps{
+    width: 100%;
+  }
+}
+.box-intermedi{
+  .box-spotify{
+    margin-bottom: 15px;
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+    .title-spotify-box{
+      width: 50%;
+    }
+    .repro-spotify{
+      width: 50%;
+    }
+  }
+  .btn-center{
+    margin-top: 0px;
+    margin-bottom: 50px;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.noticias-catch{
+  padding-top: 30px;
+  display: flex;
+  width: 100%;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+  .noticias{
+    margin-bottom: 30px;
+    width: 30%;
+    .box-content-noticia{
+      @include size(100%, 405px);
+      background-color: #FAFAFA;
+      .content{
+        position: relative;
+        height: 85%;
+        padding: 30px 20px 30px 20px;
+        img{
+          width: 100%;
+        }
+        h3{
+          padding-top: 10px;
+        }
+        h5{
+          position: absolute;
+          bottom: 25px;
+        }
+      }
+
+    }
+  }
+  .noticiasext{
+    margin-bottom: 30px;
+    width: 40%;
+    .box-content-noticia{
+      @include size(100%, 405px);
+      background-color: #FAFAFA;
+      .content{
+        position: relative;
+        height: 85%;
+        padding: 30px 20px 30px 20px;
+        img{
+          width: 100%;
+        }
+        h3{
+          padding-top: 10px;
+        }
+        h5{
+          position: absolute;
+          bottom: 25px;
+        }
+      }
+
+    }
+  }
+}
+.grey-hr{
+  margin-top: 10px;
+  border: solid 1px #D7D7D7;
+}
+.box-app{
+
+
+  padding-bottom: 0px;
+  padding-top: 30px;
+  background-color: #E5E5E5;
+  height: auto;
+  .content-general{
+    @include size(100%, auto);
+    display: flex;
+    .app-foto{
+      width: 50%;
+      img{
+        width: 80%;
+      }
+    }
+    .app-description{
+      width: 50%;
+      ul{
+        display: flex;
+        list-style: none;
+        padding: 0px;
+        li{
+          padding-right: 20px;
+        }
+      }
+    }
+  }
+}
+.box-partner{
+  margin-top: 100px;
+  .box-part-colb{
+    display: flex;
+    width: 100%;
+    h3{
+      font-size: 1.2em;
+      padding-bottom: 20px;
+    }
+    img{
+      cursor: pointer;
+      width: 100%;
+    }
+      .parter{
+        width: 30%;
+        margin-bottom: 30px;
+      }
+      .colabo{
+        width: 70%;
+        ul{
+          display: flex;
+          list-style-type: none;
+          padding: 0px;
+          li{
+            width: 30%;
+          }
+        }
+      }
+  }
+
+}
+.boton_home{
+  padding-top: 100px;
+}
+.caja_claim{
+  background-color: rgba(0, 0, 0, 0.70);
+  padding: 0px 6px 0px 6px;
+  h1{
+    font-size: 3.8em;
+  }
+}
+.app{
+  width: 100%;
+  height: 553px;
+  background-color: #E6E6E6;
+
+
+}

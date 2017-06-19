@@ -1,0 +1,42 @@
+.box-content-tickets{
+  float: left;
+  padding-bottom: 30px;
+  padding-left: 40px;
+  @include size(340px, auto);
+  .btn-full-width{
+    width: 100%;
+
+  }
+}
+
+
+  .entradas-dia{
+    ul {
+        padding: 0px;
+        display: flex;
+        list-style-type: none;
+        li{
+          padding-right: 5px;
+          a{
+            button{
+              width: 215px;
+            }
+          }
+        }
+        li.descrip{
+          width: 38%;
+          padding-top: 15px;
+          padding-left: 10px;
+        }
+        li.input{
+          width: 15%;
+          padding-bottom: 20px;
+          padding-top: 20px;
+        }
+        li{
+          button{
+            margin-top: 20px;
+          }
+        }
+    }
+}
