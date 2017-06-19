@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="img/favicon.gif" type="image/gif" />
+  <link href="https://fonts.googleapis.com/css?family=Assistant:200,300,400,600,700,800" rel="stylesheet">
+  <link rel="stylesheet" href="css/index.css" media="screen" title="no title">
+
+  <script src="js/menu_mobile.js"></script>
+  <title>Buy - PS</title>
+</head>
+<body>
+  <div class="title-day-doit">
+    <ul>
+      <li>
+        <a href="index.html"><img class="logo_header_home" src="img/logo_ps_header_home.png"/></a>
+      </li>
+    </ul>
+  </div>
+
+  <!--PARTE DE HEADER-->
+  <div class="box-content-body part-login" style="padding-bottom:0px;">
+    <div class="box">
+      <div class="header-ps" >
+        <div class="header-menu">
+        </div>
+        <div class="header-bar bar-home-details" style="height: 10px;">
+
+          <div class="box" style="float:right">
+          <div class="logins">
+            <ul>
+              <li>
+                <ul>
+                  <li><span class="title-menu-pay1">Si tienes alguna
+duda llamanos  698679354</span></li>
+                </ul>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+<!--
+
+-->
+
+
+
+
+
+  <!--<p class="p-title-home-date">31 Mayo / 4 junio</p>
+  <p class="p-title-home-date">Barcelona Parc del forum</p>-->
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+
+        <a class="title-link-light" href="artists.html">ARTISTAS</a>
+        <a class="title-link-light" href="noticias.html">NOTICIAS</a>
+        <a class="title-link-light" href="como_llegar.html">INFORMACIÓN</a>
+        <a class="title-link-light" href="contact.html">CONTACTO</a>
+        <a class="title-link-light" href="tickets.html">ENTRADAS</a>
+    </div>
+  </div>
+
+<!--PARTE DE HEADER-->
+
+<!--PARTE DE CONTENIDO-->
+
+<div class="img-pre-home header-separacio" style="background-image: url('img/header_home.png');">
+</div>
+
+<!--PARTE DE CONTENIDO-->
+  <div class="box-content-body buy-part">
+      <div class="box-content-title-section">
+        <span class="title-menu-pay1" id="timer" style="float:right; padding-top:10px; width: 47px; font-size: 1.5em;"></span>
+        <span class="title-menu-pay1"  style="float:right; padding-top:10px; width: 235px; font-size: 1.5em;">TIEMPO DE COMPRA:</span>
+        <h1 class="title-section">PROCESO DE COMPRA</h1>
+        <hr class="hr-section">
+      </div>
+      <ul class="formularios">
+        <li>
+          <div id="fixed-pay" class="parte-de-resumen">
+            <span class="title-section">DATOS COMPRA</span>
+            <ul>
+              <li>
+                <hr class="hr-section">
+              </li>
+            </ul>
+            <div class="registro">
+              <ul class="pay-recive">
+                <li class="separtate">
+                  <p class="description-p"> 1 x Abono P. S.</p>
+                </li>
+                <li>
+                  <p class="description-p">140€ </p>
+                </li>
+              </ul><br>
+              <ul class="pay-recive">
+                <li class="separtate">
+                  <p class="description-p"> 1 x Entrada jueves</p>
+                </li>
+                <li>
+                  <p class="description-p">80€ </p>
+                </li>
+              </ul><br>
+              <ul class="pay-recive">
+                <li class="separtate">
+                  <p class="description-p">Gastos de gestión</p>
+                </li>
+                <li>
+                  <p class="description-p">7,5€ </p>
+                </li>
+              </ul>
+            </div>
+            <ul>
+              <li>
+                <hr class="hr-section">
+              </li>
+            </ul>
+            <div class="registro">
+              <ul class="pay-recive">
+                <li class="separtate">
+                  <p class="description-p"> <strong>Total a pagar</strong></p>
+                </li>
+                <li>
+                  <p class="description-p"><strong>227,5€</strong></p>
+                </li>
+              </ul>
+          </div>
+          <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+          <style media="screen">
+            input[type=date]:required:invalid::-webkit-datetime-edit {
+              color: transparent;
+            }
+            input[type=date]:focus::-webkit-datetime-edit {
+              color: black !important;
+            }
+          </style>
+        </li>
+        <li class="form-action">
+          <span class="title-section">Estás a un solo paso de ir al Primavera!</span><br><br>
+          <div class="registro">
+            <span class="title-section">1- LOGIN / REGISTRO </span><span class="title-section-grey">(OPCIONAL)</span>
+            <p class="description-p">Tendras las entradas descargables en todo momento</p><br>
+            <div class="btn_mas_info" onclick="abrirRegistro()">
+              <span><img src="img/trangle_bajo.svg" alt=""></span><span class="title-menu-pay"> Ver más</span>
+            </div>
+            <br>
+            <div id="login_registro">
+              <ul class="ul-vertical">
+                <li>
+                  <a href="#"><button class="btn-face " type="button" name="button"><img src="img/face_btn.png" alt=""></button></a>
+                </li>
+                <li  style="visibility:hidden;">
+                  <p class="description-p"><u><a href="olvidar.html" style="color:black;">He olvidado la contraseña</a></u></p>
+                </li>
+              </ul>
+              <ul class="ul-vertical">
+                <li>
+                  <div class="group">
+                    <input type="email" required>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label>Email</label>
+                  </div>
+                </li>
+                <li>
+                  <div class="group">
+                    <input type="password" required>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label>Contraseña</label>
+                  </div>
+                </li>
+              </ul>
+              <ul>
+                <li class="separtate">
+                  <p class="description-p" style="width: 85%"><u><a href="olvidar.html" style="color:black;">He olvidado la contraseña</a></u></p>
+                </li>
+                <li>
+                  <a href="#"><button class="btn-green width-change" type="button" name="button">CONTINUAR</button></a>
+                </li>
+              </ul><br><br><br><br>
+              <span class="title-section">REGISTRATE SI NO LO ESTAS</span><br><br><br>
+              <ul>
+                <li class="separtate">
+                  <div class="group">
+                    <input type="text" required>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label>Name</label>
+                  </div>
+                </li>
+                <li>
+                  <div class="group">
+                    <input type="text" required>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label>Apellidos</label>
+                  </div>
+                </li>
+              </ul>
+              <ul>
+                <li class="separtate">
+                  <div class="group">
+                    <input type="text" required>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label>DNI / NIE / Pasaporte</label>
+                  </div>
+                </li>
+                <li>
+                  <div class="group">
+                    <input type="date" required style="height:20px">
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label>Fecha de nacimiento</label>
+                  </div>
+                </li>
+              </ul>
+              <ul>
+                <li class="separtate">
+                  <div class="group">
+                    <input type="text" required>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label>País</label>
+                  </div>
+                </li>
+                <li>
+                  <div class="group">
+                    <input type="text" required>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label>Ciudad</label>
+                  </div>
+                </li>
+              </ul>
+              <ul class="ul-vertical">
+                <li>
+                  <div class="group">
+                    <input type="email" required>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label>Email</label>
+                  </div>
+                </li>
+                <li>
+                  <div class="group">
+                    <input type="password" required>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label>Contraseña</label>
+                  </div>
+                </li>
+                <li>
+                  <div class="group">
+                    <input type="password" required>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label>Confirmar Contraseña</label>
+                  </div>
+                </li>
+              </ul>
+              <ul>
+                <li class="separtate">
+
+                </li>
+                <li>
+                  <a href="#"><button class="btn-green width-change" type="button" name="button">CONTINUAR</button></a>
+                </li>
+              </ul><br><br><br><br>
+            </div>
+
+            <hr class="hr-section">
+              <br>
+            <h1 class="title-section">2- DATOS ABONOS</h1><br>
+            <p class="description-p">DATOS ABONO PRIMAVERA SOUND </p><br>
+            <ul>
+              <li class="separtate">
+                <div class="group">
+                  <input type="text" required>
+                  <span class="highlight"></span>
+                  <span class="bar"></span>
+                  <label>Name</label>
+                </div>
+              </li>
+              <li>
+                <div class="group">
+                  <input type="text" required>
+                  <span class="highlight"></span>
+                  <span class="bar"></span>
+                  <label>Apellidos</label>
+                </div>
+              </li>
+            </ul>
+            <ul>
+              <li class="separtate">
+                <div class="group">
+                  <input type="text" required>
+                  <span class="highlight"></span>
+                  <span class="bar"></span>
+                  <label>DNI / NIE / Pasaporte</label>
+                </div>
+              </li>
+              <li>
+                <div class="group">
+                  <input type="date" required style="height:20px">
+                  <span class="highlight"></span>
+                  <span class="bar"></span>
+                  <label>Fecha de nacimiento</label>
+                </div>
+              </li>
+            </ul>
+            <ul>
+              <li class="separtate">
+                <div class="group">
+                  <input type="text" required>
+                  <span class="highlight"></span>
+                  <span class="bar"></span>
+                  <label>País</label>
+                </div>
+              </li>
+              <li>
+                <div class="group">
+                  <input type="text" required>
+                  <span class="highlight"></span>
+                  <span class="bar"></span>
+                  <label>Ciudad</label>
+                </div>
+              </li>
+            </ul>
+            <ul class="ul-vertical">
+              <li>
+                <div class="group">
+                  <input type="email" required>
+                  <span class="highlight"></span>
+                  <span class="bar"></span>
+                  <label>Email</label>
+                </div>
+              </li>
+            </ul>
+            <p class="description-p">DATOS ENTRADA JUEVES</p><br>
+            <ul>
+              <li class="separtate">
+                <div class="group">
+                  <input type="text" required>
+                  <span class="highlight"></span>
+                  <span class="bar"></span>
+                  <label>Name</label>
+                </div>
+              </li>
+              <li>
+                <div class="group">
+                  <input type="text" required>
+                  <span class="highlight"></span>
+                  <span class="bar"></span>
+                  <label>Apellidos</label>
+                </div>
+              </li>
+            </ul>
+            <ul>
+              <li class="separtate">
+                <div class="group">
+                  <input type="text" required>
+                  <span class="highlight"></span>
+                  <span class="bar"></span>
+                  <label>DNI / NIE / Pasaporte</label>
+                </div>
+              </li>
+              <li>
+                <div class="group">
+                  <input type="date" required style="height:20px">
+                  <span class="highlight"></span>
+                  <span class="bar"></span>
+                  <label>Fecha de nacimiento</label>
+                </div>
+              </li>
+            </ul>
+            <ul>
+              <li class="separtate">
+                <div class="group">
+                  <input type="text" required>
+                  <span class="highlight"></span>
+                  <span class="bar"></span>
+                  <label>País</label>
+                </div>
+              </li>
+              <li>
+                <div class="group">
+                  <input type="text" required>
+                  <span class="highlight"></span>
+                  <span class="bar"></span>
+                  <label>Ciudad</label>
+                </div>
+              </li>
+            </ul>
+            <ul class="ul-vertical">
+              <li>
+                <div class="group">
+                  <input type="email" required>
+                  <span class="highlight"></span>
+                  <span class="bar"></span>
+                  <label>Email</label>
+                </div>
+              </li>
+            </ul>
+            <hr class="hr-section"><br>
+            <h1 class="title-section">3- MÉTODOS DE PAGO</h1><br>
+            <ul>
+              <li class="separtate">
+                <ul class="pay">
+                  <li class="radio"><input type="radio" required name="credit" onclick="tarjetaOpen()"></li>
+                  <li><p class="description-p">Tarjeta de crédito</p></li>
+                </ul>
+              </li>
+              <li>
+                <ul class="pay">
+                  <li class="radio"><input type="radio" required name="credit" onclick="paypalOpen()"></li>
+                  <li><p class="description-p">Paypal</p></li>
+                </ul>
+              </li>
+            </ul><br>
+            <div id="tarjeta">
+              <img src="img/Targetas.png" alt="" width="200px"/><br><br>
+              <ul class="ul-vertical">
+                <li>
+                  <div class="group">
+                    <input type="text" required>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label>Número de la tarjeta</label>
+                  </div>
+                </li>
+              </ul>
+              <ul>
+                <li class="separtate">
+                  <div class="group">
+                    <input type="number" required>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label>MM</label>
+                  </div>
+                </li>
+                <li>
+                  <div class="group">
+                    <input type="number" required>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label>YYYY</label>
+                  </div>
+                </li>
+              </ul>
+              <ul>
+                <li class="separtate">
+                  <div class="group">
+                    <input type="number" required>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label>CVV</label>
+                  </div>
+                </li>
+                <li>
+                  <img src="img/codigo_t.png" alt="" />
+                </li>
+              </ul>
+              <input type="checkbox" name="name" value=""><p class="description-p">Acepto las<u><a href="contact.html" style="color:black;"> condiciones de compra</a></u> y la<u><a href="contact.html" style="color:black;"> política de privacidad</a></u></p>
+              <a href="card_validation.html"><button class="btn-green width-change" type="button" name="button">CONFIRMAR COMPRA</button></a>
+            </div>
+            <div id="paypal">
+              <a href="paypal.html"><img src="img/PayPal_btn.png" alt="" /></a>
+            </div>
+
+
+          </div>
+        </li>
+      </ul>
+  </div>
+<!--PARTE DE CONTENIDO-->
+
+<!--PARTE DE FOOTER-->
+  <div class="footer-ps">
+    <div class="box-content-links">
+      <div class="img-logo-footer">
+        <a href="index.html"><img src="img/logo_ps_footer_white.png" alt="" /></a>
+      </div>
+
+    </div>
+    <div class="box-content-footer-copyright" style="background-image: url('img/footer_img_copyright.png');">
+      <p class="title-copyright">© 2017 Primavera Sound, S.L </p>
+    </div>
+  </div>
+<!--PARTE DE FOOTER-->
+<script type="text/javascript">
+var lastScrollTop = 275;
+$(window).scroll(function(event){
+   var st = $(this).scrollTop();
+   if (st >= lastScrollTop){
+       $(".parte-de-resumen").addClass("fixed-pay");
+   } else {
+      $(".parte-de-resumen").removeClass("fixed-pay");
+   }
+
+});
+</script>
+<script type="text/javascript">
+document.getElementById('timer').innerHTML =
+09 + ":" + 00;
+startTimer();
+
+function startTimer() {
+var presentTime = document.getElementById('timer').innerHTML;
+var timeArray = presentTime.split(/[:]+/);
+var m = timeArray[0];
+var s = checkSecond((timeArray[1] - 1));
+if(s==59){m=m-1}
+//if(m<0){alert('timer completed')}
+
+document.getElementById('timer').innerHTML = m + ":" + s;
+setTimeout(startTimer, 1000);
+}
+
+function checkSecond(sec) {
+if (sec < 10 && sec >= 0) {sec = "0" + sec}; // add zero in front of numbers < 10
+if (sec < 0) {sec = "59"};
+return sec;
+}
+</script>
+</body>
+</html>
